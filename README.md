@@ -1,3 +1,6 @@
+
+
+```markdown
 # QR Code Generator
 
 This project is a QR Code Generator created as part of an internship project for TechNet Cloud. The QR Code Generator allows users to create QR codes based on inputted URLs or text. The project is built using HTML, CSS, and JavaScript, and is designed to be responsive on various screen sizes, including 1440px, 1024px, 768px, and 320px.
@@ -24,11 +27,12 @@ This project is a QR Code Generator created as part of an internship project for
 4. **Reset**: The "Reset" button clears the input field and hides the generated QR code, restoring the default image.
 
 ## Project Structure
+QR-Code-Generator/
+├── index.html # The main HTML file containing the structure of the web page
+├── style.css # The CSS file containing styles for the web page
+└── script.js # The JavaScript file containing the logic for generating, downloading, and resetting 
 
-- `index.html`: The main HTML file containing the structure of the web page.
-- `style.css`: The CSS file containing styles for the web page.
-- `script.js`: The JavaScript file containing the logic for generating, downloading, and resetting QR codes.
-## Screenshots
+
 
 
 
