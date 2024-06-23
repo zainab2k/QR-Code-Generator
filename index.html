@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div>
+                <img id="default-image" src="https://th.bing.com/th/id/R.9c7365108872d03f880954af8766a6c0?rik=dEOyAbMUA9acnQ&pid=ImgRaw&r=0" alt="QR Code">
+            </div>
+            <h1>QR Code Generator</h1>
+        </div>
+        <div class="qr-container" id="qr-container">
+            <div id="qrcode"></div>
+        </div>
+        <input type="text" id="text" placeholder="Enter URL or text">
+        <div class="buttons">
+            <button id="generate">Generate QR</button>
+            <button id="download" disabled>Download QR</button>
+            <button id="reset">Reset</button>
+        </div>
+        <p>Thanks For Visiting! Regards, Zainab</p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
